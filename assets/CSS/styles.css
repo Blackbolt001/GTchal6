@@ -12,7 +12,7 @@ div.row {
   background-color: transparent;
 }
 .jumbotron{
-  background-image: url(../Images/weatherappbackground.jpg);
+  background-image: url(../Images/snippetneon.png);
   color: gold;
   font-weight: bold;
   object-fit: cover;
@@ -21,6 +21,7 @@ div.row {
   border-color: lightslategrey ;
   border-radius: 20px;
  box-shadow: 10px 5px 10px 5px #10100f;
+ opacity: .8;
 }
 #backgroundVideo {
   height: 100%;
@@ -47,6 +48,9 @@ div.card {
   margin-top: 50px;
   margin-bottom: 50px;
   opacity: .9;
+}
+div.container{
+ float: left; 
 }
 input {
   text-align: center;
