@@ -13,32 +13,42 @@
  <video id="backgroundVideo"autobuffer playsinline autoplay loop muted>
     <source src="./assets/Images/snowloopvideo.mp4" type="video/mp4" alt="snowfall">
   </video>
-<header class="jumbotron">
+<header>
     <h2 class="display-5">Open Weather Dashboard</h2>
 </div>
 </header>
 
-<div class="container">
-  <input type="text" class="inputValue" placeholder="Enter Destination">
-  <input type="submit" value ="Submit">
+<div class="container" id="searchWrapper">
+  <input
+  type="text"
+  name="searchBar"
+  id="searchBar" 
+  placeholder="Enter Destination ">
+</input>
 </div> 
-<div class="container">
-<div class="row d-flex justify-content-center px-3">
 
+
+  <div class="row">
 <div class="card">
-<div class ="display">
-    <h1 class ="name"></h1>
-    <p class="desc"></p>
-    <p class="temp"></p>
+  <h5 class="card-title p-2">Date</h5>
+<div class ="card-body">
+    <h3 class="card-title">Location</h3>
+    <h2 class="card-title">Weather</h2>
+    <p class="card-text">Forcast</p>
+    <p class="card-text">Rain</p>
 </div>
 </div>
 </div>
-</div>
+
+
+
+
+</body>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script src="./assets/JavaScript/scripts.js"></script>
-</body>
+
 </html>
 
 

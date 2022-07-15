@@ -6,24 +6,21 @@
 body {
   background-color: transparent;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  object-fit: contain;
 
 }
 
-div.row {
-  background-color: transparent;
 
-}
-.jumbotron{
-  background-image: url(../Images/snippetneon.png);
-  color: gold;
+header {
+  text-align: center;
+  color: rgb(120, 20, 242);
   width: 90%;
   font-weight: bold;
-  object-fit: cover;
   margin: 10px;
   padding: 10px;
-  border-color: lightslategrey ;
+  border-color: rgb(117, 36, 248) ;
   border-radius: 20px;
- box-shadow: 10px 5px 10px 5px #10100f;
+ box-shadow: 10px 5px 10px 5px #0a0a0a;
  opacity: .8;
  margin-left: 50px;
 }
@@ -34,65 +31,36 @@ div.row {
   position: fixed;
   z-index: -1;
 }
-::placeholder{
-  color: white;
+ ::placeholder{
+  text-align: center;
+  color: rgb(255, 217, 0);
   font-size: 20px;
-  font-weight: bold;
-  opacity: .8;
+  background-color: transparent;
 
 }
 div.card {
   background-color: rgb(188, 205, 255);
-  background-size: cover;
-  width: 300px;
-  height:250px;
-  border-radius: 25px;
-  border-color: rgb(0, 255, 234);
-  box-shadow: 0px 8px 16px 4px #ffea00;
+  width:auto;
+  height:auto;
+  color: rgb(241, 143, 58);
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px 4px #020c23;
   opacity: .6;
 }
-div.container{
-position: relative;
-float: left;
-padding-bottom: 100px;
+
+div.row{
+  justify-content: center;
+padding-top: 175px;
+padding-right: 10px;
 }
-input {
-  text-align: center;
+
+
+input{
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  color: #f60b9c;
   background-color: transparent;
-
-}
-input[type="text"]{
-  height: 60px;
-  width: 500px;
-  border-radius: 25px;
-  color: #ffea00;
-  background-color: transparent;
-  font-weight: bold;
-  
-}
-input[type="submit"]{
-  border-radius: 80px;
-  height: 60px;
-  width: 60px;
-  color: skyblue;
-  font-size: 0;
-  background-color:transparent;
-  background-image: url(../Images/SearchIcon2.png);
-  opacity: .6;
-
-}
-.time-font {
-  font-size: 50px;
+  opacity: .8;
 }
 
-.sm-font {
-  font-size: 18px;
-}
-
-.med-font {
-  font-size: 28px;
-}
-
-.large-font {
-  font-size: 60px;
-}
